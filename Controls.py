@@ -3,7 +3,6 @@ import random
 import TrekStrings
 import Glyphs
 from ShipKlingon import ShipKlingon
-from ShipKlingon import ShipKlingon
 #from ShipStarbase import ShipStarbase
 from ShipEnterprise import ShipEnterprise
 from Calculators import Calc
