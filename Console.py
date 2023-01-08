@@ -24,17 +24,6 @@ class Con(abs_display):
             pass
         return False
 
-    def read_xypos(self, prompt = "Location (alpha,num)"):
-        '''
-        Parse: [a-h], ypos 
-                or 
-                #,#  
-           Return None on error
-        Example: b,4 
-        '''
-        text = input(prompt + ': ')
-        return SubDest.parse(text)
-
     def read_sector(self, prompt= "Helm: sector 1-64, speed 1.0-9.0?"):
         text = input(prompt + ': ')
         return WarpDest.parse(text)
