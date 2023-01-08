@@ -7,10 +7,10 @@ class abs_display(abc.ABC):
     use only one display to show a certain 
     type of message. 
     
-    Networked screens would (let alone game 
-    play)would also be a great idea.
+    Networked screens (let alone game 
+    play) would also be a great idea.
 
-    Event logging would be in there somewhere
+    Event logging might be in there somewhere
     as well?
     '''
 
