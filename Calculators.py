@@ -105,10 +105,12 @@ class Calc():
             game.display()
             game.enterprise.energy -= energy_required
 
-        game.move_to(dest_sys)
+        n = lambda dist, speed: round(0.5 + speed/dist) #Quick calculator for time passage
 
-        game.time_remaining -= 1
-        game.star_date += 1
+        game.time_remaining -= n(abs(game.game_map.sector - dest_sys.sector),dest_sys.warp) # before moving there, adjust time by lambda calc
+        game.star_date += n(abs(game.game_map.sector - dest_sys.sector),dest_sys.warp)
+
+        game.move_to(dest_sys)
 
         game.enterprise.short_range_scan(game)
 
