@@ -16,6 +16,8 @@ So far:
 
 * Added that classic sublight / in system propulsion system. Warp speeds engines are now a seperate navigational system.
 
+* Warp speed selection changes game time. (Thanks Loondas!)
+
 * Heavily re-factored for growth, testing, re-use, and maintenance using modern Python.
 
 Video: https://youtu.be/TpmtCLOJ5Uw
