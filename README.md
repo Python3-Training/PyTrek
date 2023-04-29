@@ -1,5 +1,5 @@
 ***
- PyTrek 2020
+## PyTrek 2020
 ***
 
 The original free-and-open Star Trek console game was THE most played game of the day .... back in the 1970's! 
