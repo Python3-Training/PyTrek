@@ -1,8 +1,10 @@
-================
+***
  PyTrek 2020
-================
+***
 
 The original free-and-open Star Trek console game was THE most played game of the day .... back in the 1970's! 
+
+![PyTrek 2020](https://github.com/Python3-Training/PyTrek-2020/blob/master/PyTrek.png)
 
 Originally written in B.A.S.I.C, from C/C++, FORTRAN, C#, Python 2 ... and now Python 3, many have been inspired to re-create, improve, and / or simply experiment with the concept.
 
