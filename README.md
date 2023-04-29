@@ -1,5 +1,5 @@
 ***
-## PyTrek 2020
+# PyTrek 2020
 ***
 
 The original free-and-open Star Trek console game was THE most played game of the day .... back in the 1970's! 
@@ -30,6 +30,8 @@ Feel free to do a 'Kirk here - Kobayashi Maru?
 
 https://www.udemy.com/course/python-1000/ 
 
+Thinking about adding mult-user / networked features? -Then [here is a good video](https://www.oreilly.com/library/view/tcpip-and-udpip/9781484294543/) to assist with those networking 'Py-Spirations.
+
 
 
 Enjoy the journey,
@@ -41,7 +43,7 @@ Enjoy the journey,
 ## zSupport?
 If you want to support the effort, I seek no donations. Instead, simply feel free to purchase one of [my educational](https://www.udemy.com/user/randallnagy2/) or [printed](https://www.amazon.com/Randall-Nagy/e/B08ZJLH1VN?ref=sr_ntt_srch_lnk_1&qid=1660050704&sr=8-1) productions?
 
-Original:
+### Original:
 
 
 ================
