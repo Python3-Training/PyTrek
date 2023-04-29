@@ -9,6 +9,9 @@ class abs_display(abc.ABC):
     
     Networked screens (let alone game 
     play) would also be a great idea.
+    
+    Here is how we could to that:
+    https://www.oreilly.com/library/view/tcpip-and-udpip/9781484294543/
 
     Event logging might be in there somewhere
     as well?
