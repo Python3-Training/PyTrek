@@ -44,8 +44,9 @@ Changed the official PyTrek number from 2020 to 9000 to better support age-nosti
 
 To play PyTrek 9000:
 
+```
 >>> from PyTrek import PyTrek1
-
+```
 -will automaticall run this TUI universal.
 
 
