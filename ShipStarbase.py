@@ -1,5 +1,5 @@
-import Glyphs
-from AbsShip import AbsShip
+import PyTrek9000.Glyphs as Glyphs
+from PyTrek9000.AbsShip import AbsShip as AbsShip
 
 class ShipStarbase(AbsShip):
 

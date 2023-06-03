@@ -1,5 +1,5 @@
-from AbsDisplay import abs_display
-from Points import *
+from PyTrek9000.AbsDisplay import abs_display
+from PyTrek9000.Points import *
 
 class Con(abs_display):
     '''

@@ -1,5 +1,5 @@
-import Glyphs
-from Quips import Quips
+from PyTrek9000 import Glyphs as Glyphs
+from PyTrek9000.Quips import Quips as Quips
 
 class Stats():
     '''

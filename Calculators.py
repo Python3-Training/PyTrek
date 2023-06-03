@@ -1,10 +1,10 @@
 from math import sqrt
 import random
 
-from MapGame import *
-from AbsShip import *
-from Points import *
-from Difficulity import Probabilities
+from PyTrek9000.MapGame import *
+from PyTrek9000.AbsShip import *
+from PyTrek9000.Points import *
+from PyTrek9000.Difficulity import Probabilities
 
 class Calc():
 

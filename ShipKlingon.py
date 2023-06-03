@@ -1,6 +1,6 @@
 import random
-import Glyphs
-from AbsShip import AbsShip
+import PyTrek9000.Glyphs as Glyphs
+from PyTrek9000.AbsShip import AbsShip as AbsShip
 
 class ShipKlingon(AbsShip):
 
@@ -25,7 +25,7 @@ class ShipKlingon(AbsShip):
         '''
         if game.is_cloked:
             return False
-        from Calculators import Calc
+        from PyTrek9000.Calculators import Calc as Calc
         kships = game.game_map.get_area_klingons()
         if len(kships) > 0:
             for ship in kships:

@@ -1,16 +1,16 @@
 ﻿import random
 
-import TrekStrings
-from Console import Con
-from ShipKlingon import ShipKlingon
-from ShipEnterprise import ShipEnterprise
-from ShipStarbase import ShipStarbase
-from Calculators import Calc
-from Controls import Control
-from Reports import Stats
-from Points import *
-from Quips import Quips
-from MapGame import *
+import PyTrek9000.TrekStrings as TrekStrings
+from PyTrek9000.Console import Con
+from PyTrek9000.ShipKlingon import ShipKlingon as ShipKlingon
+from PyTrek9000.ShipEnterprise import ShipEnterprise
+from PyTrek9000.ShipStarbase import ShipStarbase
+from PyTrek9000.Calculators import Calc
+from PyTrek9000.Controls import Control
+from PyTrek9000.Reports import Stats
+from PyTrek9000.Points import *
+from PyTrek9000.Quips import Quips
+from PyTrek9000.MapGame import *
 
 
 class Game(Con):
@@ -63,16 +63,16 @@ class Game(Con):
         The game loop - runs until the game is over.
         '''
         self.show_strings(TrekStrings.LOGO_TREKER)
-        game.star_date = random.randint(2250, 2300)
-        game.time_remaining = random.randint(40, 45)
-        game.destroyed = False
+        self.star_date = random.randint(2250, 2300)
+        self.time_remaining = random.randint(40, 45)
+        self.destroyed = False
         stars     = random.randint(500, 700) # 4096 = ALL
         aliens    = random.randint(14, 24)
         starbases = random.randint(6, 8)
-        game.game_map.randomize(starbases, stars, aliens)
+        self.game_map.randomize(starbases, stars, aliens)
         dest = WarpDest(64, 0)
-        game.move_to(dest)
-        game.game_map.get_area(64).name = 'Outer Limits'
+        self.move_to(dest)
+        self.game_map.get_area(64).name = 'Outer Limits'
         self.print_mission()
 
         self.show_strings(TrekStrings.HELM_CMDS)
@@ -95,33 +95,33 @@ class Game(Con):
             if ex.glyph == Glyphs.STAR:
                 self.display("You flew into a STAR?")
             self.destroyed = True
-        game.display()
-        Stats.show_exit_status(game)
-        game.display()
+        self.display()
+        Stats.show_exit_status(self)
+        self.display()
         if self.destroyed == True:
             self.display(Quips.jibe_fatal_mistake())
-        game.display()
+        self.display()
         return False
 
     def command_prompt(self):
         command = self.read("Enter command: ").strip().lower()
         self.display()
         if command == "nav":
-            Calc.warp_navigation(game)
+            Calc.warp_navigation(self)
         if command == "sub":
-            Calc.sublight_navigation(game)
+            Calc.sublight_navigation(self)
         elif command == "srs":
-            game.enterprise.short_range_scan(game)
+            self.enterprise.short_range_scan(self)
         elif command == "lrs":
-            game.enterprise.long_range_scan(game)
+            self.enterprise.long_range_scan(self)
         elif command == "pha":
-            Control.phasers(game)
+            Control.phasers(self)
         elif command == "tor":
-            Control.torpedos(game)
+            Control.torpedos(self)
         elif command == "she":
-            Control.shields(game)
+            Control.shields(self)
         elif command == "com":
-            Control.computer(game)
+            Control.computer(self)
         elif command.startswith('qui') or command.startswith('exi'):
             return False
         else:
@@ -132,14 +132,18 @@ class Game(Con):
         self.display("Mission: Destroy {0} Klingon ships in {1} stardates with {2} starbases.".format(
             self.game_map.game_klingons, self.time_remaining, self.game_map.game_starbases))
         self.display()
+    
+    @staticmethod
+    def mainloop():
+        import traceback
+        game = Game()
+        try:
+            game.run()
+        except Exception as ex:
+            print(ex)
+            # Stack trace:
+            traceback.print_exc() 
 
 
-if __name__ == '__main__':
-    import traceback
-    game = Game()
-    try:
-        game.run()
-    except Exception as ex:
-        print(ex)
-        # Stack trace:
-        traceback.print_exc() 
+Game.mainloop()
+ 

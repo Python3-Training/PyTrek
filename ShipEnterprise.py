@@ -1,10 +1,10 @@
 import random
-from AbsShip import AbsShip
-from ShipStarbase import ShipStarbase
-from Sector import Sector
-from Difficulity import Probabilities
-import Glyphs
-from Quips import Quips
+from PyTrek9000.AbsShip import AbsShip
+from PyTrek9000.ShipStarbase import ShipStarbase
+from PyTrek9000.Sector import Sector
+from PyTrek9000.Difficulity import Probabilities
+from PyTrek9000 import Glyphs as Glyphs
+from PyTrek9000.Quips import Quips as Quips
 
 class ShipEnterprise(AbsShip):
 

@@ -1,4 +1,4 @@
-import Glyphs
+import PyTrek9000.Glyphs as Glyphs
 
 class Sector():
     def __init__(self, num=-1, name='', 

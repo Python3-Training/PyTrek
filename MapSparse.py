@@ -1,6 +1,6 @@
 import random
-import TrekStrings
-import Glyphs
+import PyTrek9000.TrekStrings as TrekStrings
+import PyTrek9000.Glyphs as Glyphs
 
 class SparseMap:
     ''' 
