@@ -1,7 +1,7 @@
 import random
-import PyTrek9000.MapGame as MapGame
-import PyTrek9000.Glyphs as Glyphs
-from PyTrek9000.MapSparse import SparseMap as SparseMap
+import PyTrek.MapGame as MapGame
+import PyTrek.Glyphs as Glyphs
+from PyTrek.MapSparse import SparseMap as SparseMap
 
 def fill_map():
     map = SparseMap()

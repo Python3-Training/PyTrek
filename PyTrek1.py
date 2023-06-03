@@ -1,16 +1,16 @@
 ﻿import random
 
-import PyTrek9000.TrekStrings as TrekStrings
-from PyTrek9000.Console import Con
-from PyTrek9000.ShipKlingon import ShipKlingon as ShipKlingon
-from PyTrek9000.ShipEnterprise import ShipEnterprise
-from PyTrek9000.ShipStarbase import ShipStarbase
-from PyTrek9000.Calculators import Calc
-from PyTrek9000.Controls import Control
-from PyTrek9000.Reports import Stats
-from PyTrek9000.Points import *
-from PyTrek9000.Quips import Quips
-from PyTrek9000.MapGame import *
+import PyTrek.TrekStrings as TrekStrings
+from PyTrek.Console import Con
+from PyTrek.ShipKlingon import ShipKlingon as ShipKlingon
+from PyTrek.ShipEnterprise import ShipEnterprise
+from PyTrek.ShipStarbase import ShipStarbase
+from PyTrek.Calculators import Calc
+from PyTrek.Controls import Control
+from PyTrek.Reports import Stats
+from PyTrek.Points import *
+from PyTrek.Quips import Quips
+from PyTrek.MapGame import *
 
 
 class Game(Con):

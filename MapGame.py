@@ -1,13 +1,13 @@
 import random
-import PyTrek9000.TrekStrings as TrekStrings
+import PyTrek.TrekStrings as TrekStrings
 
-from PyTrek9000 import Glyphs as Glyphs
-from PyTrek9000.ShipKlingon import ShipKlingon as ShipKlingon
-from PyTrek9000.Points import *
-from PyTrek9000.Sector import Sector as Sector
-from PyTrek9000.ErrorCollision import ErrorEnterpriseCollision as ErrorEnterpriseCollision
+from PyTrek import Glyphs as Glyphs
+from PyTrek.ShipKlingon import ShipKlingon as ShipKlingon
+from PyTrek.Points import *
+from PyTrek.Sector import Sector as Sector
+from PyTrek.ErrorCollision import ErrorEnterpriseCollision as ErrorEnterpriseCollision
 
-import PyTrek9000.MapSparse as MapSparse
+import PyTrek.MapSparse as MapSparse
 
 class GameMap(MapSparse.SparseMap):
 

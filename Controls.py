@@ -1,13 +1,13 @@
 import random
 
-from PyTrek9000 import TrekStrings
-from PyTrek9000 import Glyphs
-from PyTrek9000.ShipKlingon import ShipKlingon
-from PyTrek9000.ShipEnterprise import ShipEnterprise
-from PyTrek9000.Calculators import Calc
-from PyTrek9000.Reports import Stats
-from PyTrek9000.Quips import Quips
-from PyTrek9000.Difficulity import Probabilities
+from PyTrek import TrekStrings
+from PyTrek import Glyphs
+from PyTrek.ShipKlingon import ShipKlingon
+from PyTrek.ShipEnterprise import ShipEnterprise
+from PyTrek.Calculators import Calc
+from PyTrek.Reports import Stats
+from PyTrek.Quips import Quips
+from PyTrek.Difficulity import Probabilities
 
 class Control():
 
