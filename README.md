@@ -40,7 +40,13 @@ Enjoy the journey,
 -- Randall Nagy
 
 ### P.S
-Changed the official PyTrek number from 2020 to 9000 to better support age-nostic updates & enhancements.
+Changed the official PyTrek number from 2020 to 9000 to better support age-nostic updates & enhancements. Same for the `Game` Class in PyTrek1.py
+
+To play PyTrek 9000:
+
+>>> from PyTrek import PyTrek1
+
+-will automaticall run this TUI universal.
 
 
 ## zSupport?
