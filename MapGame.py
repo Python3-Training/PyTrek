@@ -35,7 +35,7 @@ class GameMap(MapSparse.SparseMap):
             if not nelem:
                 continue
             to_take = random.randint(0, nelem)
-            if nelem is 1:
+            if nelem == 1:
                 to_take = 1
             if not to_take:
                 continue
@@ -44,13 +44,13 @@ class GameMap(MapSparse.SparseMap):
                 ss = random.randrange(1, 64) # Ignore "Outer Limits"
                 area = self.get_area(ss)
                 should_take = random.randint(1, 8)
-                if which is 0:
+                if which == 0:
                     if area.count_glyphs(Glyphs.STARBASE) != 0:
                         continue
                     area.place_glyph(Glyphs.STARBASE)
-                elif which is 1:
+                elif which == 1:
                     area.place_glyph(Glyphs.STAR)
-                elif which is 2:
+                elif which == 2:
                     if area.count_glyphs(Glyphs.KLINGON) > 3:
                         continue
                     area.place_glyph(Glyphs.KLINGON)
