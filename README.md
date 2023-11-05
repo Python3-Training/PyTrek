@@ -28,7 +28,7 @@ Original authors did an excellent job - made the modernization a WHOLE LOT easie
 
 Feel free to do a 'Kirk here - Kobayashi Maru?
 
-https://www.udemy.com/course/python-1000/ 
+[(Free Education for Beginners](https://www.udemy.com/course/python-1000-the-python-primer/?referralCode=A22C48BD99DBF167A3DE)
 
 Thinking about adding mult-user / networked features? -Then [here is a good video](https://www.oreilly.com/library/view/tcpip-and-udpip/9781484294543/) to assist with those networking 'Py-Spirations.
 
