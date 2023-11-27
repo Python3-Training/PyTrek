@@ -6,7 +6,7 @@ The original free-and-open Star Trek console game was THE most played game of th
 
 ![PyTrek 9000](https://github.com/Python3-Training/PyTrek-9000/blob/master/PyTrek.png)
 
-Originally written in B.A.S.I.C, from C/C++, FORTRAN, C#, Python 2 ... and now Python 3, many have been inspired to re-create, improve, and / or simply experiment with the concept.
+Originally written in [B.A.S.I.C](https://github.com/soft9000/Blog9000/blob/master/BASIC/SuperStarTrek_1973_10_00/STTR1.BAS), from [COBOL](https://github.com/soft9000/Blog9000/blob/master/GnuCOBOL/star_trek/star_trek.COB), C/C++, FORTRAN, C#, Python 2 ... and now Python 3, many have been inspired to re-create, improve, and / or simply experiment with the concept.
 
 So far:
 
