@@ -1,10 +1,12 @@
 ***
-# PyTrek 9000
+# PyTrek 9000 (a.k.a PyTrek 2020)
 ***
 
 The original free-and-open Star Trek console game was THE most played game of the day .... back in the 1970's! 
 
 ![PyTrek 9000](https://github.com/Python3-Training/PyTrek-9000/blob/master/PyTrek.png)
+
+The How-To Video is [now here](https://takelessons.com/provider/profilev2/video/edit/b265b9922c7e46d688b28cb93abb9686?service=python)!
 
 Originally written in [B.A.S.I.C](https://github.com/soft9000/Blog9000/blob/master/BASIC/SuperStarTrek_1973_10_00/STTR1.BAS), from [COBOL](https://github.com/soft9000/Blog9000/blob/master/GnuCOBOL/star_trek/star_trek.COB), C/C++, FORTRAN, C#, Python 2 ... and now Python 3, many have been inspired to re-create, improve, and / or simply experiment with the concept.
 
@@ -21,8 +23,6 @@ So far:
 * Warp speed selection changes game time. (Thanks Loondas!)
 
 * Heavily re-factored for growth, testing, re-use, and maintenance using modern Python.
-
-Video: https://youtu.be/TpmtCLOJ5Uw
 
 Original authors did an excellent job - made the modernization a WHOLE LOT easier!
 
