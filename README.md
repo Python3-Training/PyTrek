@@ -22,7 +22,7 @@ So far:
 
 * Heavily re-factored for growth, testing, re-use, and maintenance using modern Python.
 
-Video: [Game Overview](https://s3.amazonaws.com/soft9000.com/vids/2020_12_24_StarTrek2020_Overview.mp4)
+Video: [Game Overview](https://youtu.be/VLEXHtqKKaA?si=5FAw48gFkjAgbnmi)
 
 Original authors did an excellent job - made the modernization a WHOLE LOT easier!
 
