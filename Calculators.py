@@ -1,3 +1,11 @@
+# MISSION: PyTrek 2020.
+# STATUS: Release
+# VERSION: 1.0.0
+# NOTES: See https://github.com/Python3-Training/PyTrek
+# DATE: 2026-05-30 20:48:04
+# FILE: Calculators.py
+# AUTHOR: See https://ko-fi.com/randallnagy
+#
 from math import sqrt
 import random
 

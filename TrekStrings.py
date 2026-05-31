@@ -1,3 +1,11 @@
+# MISSION: PyTrek 2020.
+# STATUS: Release
+# VERSION: 1.0.0
+# NOTES: See https://github.com/Python3-Training/PyTrek
+# DATE: 2026-05-30 20:48:04
+# FILE: TrekStrings.py
+# AUTHOR: See https://ko-fi.com/randallnagy
+#
 ﻿LOGO_TREKER = r"""
                ______ _______ ______ ______    _______ ______  ______ __  __ 
               / __  //__  __// __  // __  /   /__  __// __  / / ____// / / /

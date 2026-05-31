@@ -4,8 +4,6 @@
 
 The original free-and-open Star Trek console game was THE most played game of the day .... back in the 1970's!
 
-💫 New: [Here is](https://github.com/Python3-Training/PyTrek2026) the latest effort.
-
 Today, however, we're adding a multi user interface on the [@TotalPythoneering](https://www.youtube.com/@TotalPythoneering) playlist... [Check it out](https://youtu.be/dRoMF2orxew?si=fxtwwoZQo6u3ViMv)?
 
 ![PyTrek 9000](https://github.com/Python3-Training/PyTrek-9000/blob/master/PyTrek.png)
